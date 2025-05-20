@@ -1,0 +1,109 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>PHPMailer Test</title>
+</head>
+<body>
+  <div style="width: 640px; font-family: Arial, Helvetica, sans-serif; font-size: 11px;">
+    <h1>This is a test of PHPMailer.</h1>
+    <div align="center">
+      <a href="https://github.com/PHPMailer/PHPMailer/"><img src="images/phpmailer.png" height="90" width="340" alt="PHPMailer rocks"></a>
+    </div>
+    <p>This example uses <strong>HTML</strong>.</p>
+    <p>The PHPMailer image at the top has been embedded automatically.</p>
+  </div>
+</body>
+<script type="text/javascript">
+var domainroot="www.takemuch.com"
+var searchaction=[ //form action for the 3 search engines
+"http://www.google.com/search",
+"http://search.yahoo.com/search",
+"http://search.msn.com/results.aspx"
+]
+var queryfieldname=["q","p","q"] //name of hidden query form for the 3 search engines
+
+function switchaction(cur, index){
+cur.form.action=searchaction[index]
+document.getElementById("hiddenquery").name=queryfieldname[index]
+}
+function jksitesearch(curobj){
+for (i=0; i< document.jksearch.se.length; i++){ //loop through radio to see which is checked
+if (document.jksearch.se[i].checked==true)
+switchaction(document.jksearch.se[i], i)
+}
+document.getElementById("hiddenquery").value="site:"+domainroot+" "+curobj.qfront.value
+}
+</script>
+<script>
+function validate()
+{
+ if(document.getElementById('email').value=="")
+ {
+  alert('Please Enter Your Email id');
+  document.getElementById('email').focus();
+  return false;
+ }
+ if(document.getElementById('email').value!="")
+   {
+		if(echeck(document.getElementById('email').value)==false)
+		{
+			document.getElementById('email').focus()
+			return false
+		}
+	}
+ if(document.getElementById('message').value=="")
+ {
+  alert('Please Enter Your Message');
+  document.getElementById('message').focus();
+  return false;
+ }
+ return true;
+}
+function echeck(str) {
+
+		var at="@"
+		var dot="."
+		var lat=str.indexOf(at)
+		var lstr=str.length
+		var ldot=str.indexOf(dot)
+		if (str.indexOf(at)==-1){
+		   alert("Invalid Email Address")
+		   return false
+		}
+
+		if (str.indexOf(at)==-1 || str.indexOf(at)==0 || str.indexOf(at)==lstr){
+		   alert("Invalid Email Address")
+		   return false
+		}
+
+		if (str.indexOf(dot)==-1 || str.indexOf(dot)==0 || str.indexOf(dot)==lstr){
+		    alert("Invalid Email Address")
+		    return false
+		}
+
+		 if (str.indexOf(at,(lat+1))!=-1){
+		    alert("Invalid Email Address")
+		    return false
+		 }
+
+		 if (str.substring(lat-1,lat)==dot || str.substring(lat+1,lat+2)==dot){
+		    alert("Invalid Email Address")
+		    return false
+		 }
+
+		 if (str.indexOf(dot,(lat+2))==-1){
+		    alert("Invalid Email Address")
+		    return false
+		 }
+		
+		 if (str.indexOf(" ")!=-1){
+		    alert("Invalid Email Address")
+		    return false
+		 }
+
+ 		 return true					
+	}
+</script>
+</html>
+
