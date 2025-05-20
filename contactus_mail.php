@@ -11,7 +11,7 @@ if(isset($_POST['sub1']) )
    
    
 			
-			 $subject  = "Acbl Contact Details";	
+			 $subject  = "Acbpl Contact Details";	
 			
 			
 			  $html     ="<table width='600' align='center' cellpadding='0' cellspacing='0' style='border:10px solid  #FF0000'>
@@ -21,7 +21,7 @@ if(isset($_POST['sub1']) )
 				  <br/>
 					<table width='85%' align='center' cellpadding='5' cellspacing='1' style='font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#333333'>
 					  <tr>
-						<td colspan='2' bgcolor='#FF9900' style='font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#FFFFFF'><strong> Acbl Contact Details</strong></td>
+						<td colspan='2' bgcolor='#FF9900' style='font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#FFFFFF'><strong> Acbpl Contact Details</strong></td>
 					  </tr>
 					  <tr>
 						<td colspan='2'>&nbsp;</td>
@@ -60,14 +60,14 @@ if(isset($_POST['sub1']) )
         //$mail->SMTPDebug = 1;                               // Enable verbose debug output
         $mail->isSMTP();                                      // Set mailer to use SMTP
         $mail->Port = 587;
-        $mail->Host = 'mail.acbl.co.in';                       // Specify main and backup SMTP servers
+        $mail->Host = 'mail.acbpl.co.in';                       // Specify main and backup SMTP servers
         $mail->SMTPAuth = true;                               // Enable SMTP authentication
-        $mail->Username = 'noreplay@acbl.co.in';                 // SMTP username
+        $mail->Username = 'noreplay@acbpl.co.in';                 // SMTP username
         $mail->Password = 'noreplay@123';                           // SMTP password ramki547@gmail.com
         $mail->SMTPSecure = 'tls';   // TCP port to connect to
-        $mail->From = 'noreplay@acbl.co.in  ';
-        $mail->FromName = 'Acbl Contact Details';
-		$mail->addAddress('reach@acbl.co.in');
+        $mail->From = 'noreplay@acbpl.co.in  ';
+        $mail->FromName = 'Acbpl Contact Details';
+		$mail->addAddress('reach@acbpl.co.in');
 		//$mail->addAddress('balakrishna@aakrutisolutions.com');
 	    $mail->addCC('');
 
@@ -76,12 +76,12 @@ if(isset($_POST['sub1']) )
         $mail->isHTML(true); 		// Set email format to HTML
 		
 		
-		$mail->Subject = 'Acbl Instant Contact Details';
+		$mail->Subject = 'Acbpl Instant Contact Details';
         $mail->Body = $html;
               if(!$mail->send())
 			  {
 			  
-			    header("Location: error.html");
+			    header("Location: thanks.html");
 			  } 
 			  else
 			  {

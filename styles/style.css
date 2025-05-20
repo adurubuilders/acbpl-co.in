@@ -1,0 +1,332 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'MuseoSlab500Regular';
+    src: url('../fonts/Museo_Slab_500-webfont.eot');
+    src: url('../fonts/Museo_Slab_500-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Museo_Slab_500-webfont.woff') format('woff'),
+         url('../fonts/Museo_Slab_500-webfont.ttf') format('truetype'),
+         url('../fonts/Museo_Slab_500-webfont.svg#MuseoSlab500Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MuseoSlab500Italic';
+    src: url('../fonts/Museo_Slab_500italic-webfont.eot');
+    src: url('../fonts/Museo_Slab_500italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Museo_Slab_500italic-webfont.woff') format('woff'),
+         url('../fonts/Museo_Slab_500italic-webfont.ttf') format('truetype'),
+         url('../fonts/Museo_Slab_500italic-webfont.svg#MuseoSlab500Italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+	margin:0;
+	padding:0;
+	font-family: 'MuseoSlab500Regular';
+}
+
+a img {
+	border:none;
+}
+
+body {
+	background:#fff;
+	font-size:13px;
+	line-height:18px;
+}
+pre{
+color:#FFFFFF;
+}
+body p{
+font-family: 'Open Sans',sans-serif;
+padding:0 0 10px;
+color:#333333;
+}
+ul,li{
+font-family: 'Open Sans',sans-serif;
+color:#333333;
+/*margin:0 0 0 10px;*/
+}
+#wrapper {
+	width:100%;
+}
+.container {
+	width:1000px;
+	margin:0 auto;
+}
+#header {
+	background:url(../images/bg.png) repeat-x left top;
+	width:100%;
+	height:120px;
+}
+#logo {
+    float: left;
+    height: 100px;
+    padding: 10px 0 0;
+    width: 206px;
+}
+#header_text {
+	float:right;
+	width:400px;
+	padding: 40px 0 0;
+}
+#header_text p {
+	text-align:right;
+	font-family: 'MuseoSlab500Italic';
+	font-size:13px;
+	color:#333333;
+	line-height:18px;
+	font-weight: 500;
+}
+#header_text span {
+	text-align:right;
+	font-family: 'Open Sans',sans-serif;
+	font-size:12px;
+	color:#009145;
+}
+/*---------------------------------------------------- Mainmenu Starts Here -------------------------------------------------*/
+#mainmenu{
+	background:url(../images/mainmenu-bg.png) repeat-x left top;
+	clear:both;
+	height:35px;
+	width:100%;
+	padding:0;
+}
+#main_nav {
+	margin:0 auto;
+    height: 51px;
+    width: 1000px;
+	padding: 0;
+}
+#main_nav .nav_content {
+    height: 51px;
+    margin: 0 auto;
+    width: 980px;
+}
+#main_nav ul {
+    float: left;
+    list-style: none outside none;
+}
+
+#main_nav ul li {
+    /*border-left: 1px solid #57D1F0;
+    border-right: 1px solid #10809C;*/
+    float: left;
+    padding: 0;
+	height:35px;
+}
+
+#main_nav ul li a:hover, #main_nav ul li.active a {
+    background: none repeat scroll 0 0 #a6ce38;
+    border: medium none;
+    color: #000000;
+    padding: 4px 11px;
+    text-align: center;
+}
+#main_nav ul li a {
+    color: #FFFFFF;
+    float: left;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    height: 28px;
+    line-height: 28px;
+	padding: 4px 11px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a, a:visited {
+    border-bottom: 0!important;
+    color: #2D3536;
+    text-decoration: none;
+}
+.active{
+	background: none repeat scroll 0 0 #38c1e3;
+}
+
+/*---------------------------------------------------- Banner Starts Here -------------------------------------------------*/
+
+#banner {
+	background:url(../images/banner_bg.png) repeat-x left top;
+	clear:both;
+	height:366px;
+	width:100%;
+	padding:0;
+}
+#home_setions{
+	background:url(../images/section-bg.png) repeat-x left top;
+	clear:both;
+	height:122px;
+	width:100%;
+	padding:0;
+}
+.home_circle{
+	float:left; width:90px; height:20px; padding:20px 0 50px 0; margin:16px 5px; background-color:#FFF;
+	font-size:30px; text-align:center; border-radius:50px;
+}
+.home_circle_test{
+	float:left; width:223px; color:#FFFFFF; margin:15px 0 0 10px;
+}
+.home_circle_test a{
+color:#CCFF33!important;
+text-decoration:none;
+}
+.home_circle_test a:hover{
+color:#FFFFFF!important;
+text-decoration:none;
+}
+/*---------------------------------------------------- Content Codes Here -------------------------------------------------*/
+
+#main-content {
+	width:100%;
+	clear:both;
+	 background: url(../images/bg-circles.png) repeat scroll left top;
+	 overflow:hidden;
+}
+#maincontent-left{
+	width:460px;
+	float:left;
+	padding:18px 10px 0 10px;
+}
+#maincontent-right{
+	width:520px;
+	float:left;
+	padding:20px 0 55px;
+}
+.home-sections{
+	float:left;
+	width:240px; padding:10px 0;
+	border-top:5px #a6ce39 solid;
+	margin-right:10px;
+}
+
+/*---------------------------------------------------- Inner Codes Here -------------------------------------------------*/
+
+#innercontent-left{
+	/*width:680px;*/
+        width:940px; 
+	float:left;
+	padding:20px 10px;
+}
+#innercontent-right{
+	width:300px;
+	float:left;
+	padding:20px 0 55px;
+        display:none;
+}
+
+/*---------------------------------------------------- Basic Codes Here -------------------------------------------------*/
+h1 {
+	font-size:26px;
+	font-family: 'MuseoSlab500Regular';
+	line-height:32px;
+	color:#007337;
+	font-weight:500;
+}
+h2 {
+    color: #1268b2;
+    float: left;
+    font-family: 'MuseoSlab500Regular';
+    font-size: 20px;
+    font-weight: 500;
+}
+h3 {
+	font-size:18px;
+	font-family: 'MuseoSlab500Regular';
+	line-height:18px;
+	color:#fff;
+	font-weight:500;
+	border-bottom:1px dotted #fff;
+	padding:0 0 6px;
+	margin-bottom: 10px;
+}
+h4{
+	font-size:14px;
+	font-family: 'MuseoSlab500Regular';
+	line-height:15px;
+	color:#fff;
+}
+/*---------------------------------------------------- Basic Codes Here -------------------------------------------------*/
+
+#footer {
+	background:url(../images/footer-pannel-bg.png) repeat-x left top;
+	clear:both;
+	width:100%;
+	height:235px;
+}
+#footer .container .sections{
+	float:left;
+	width:240px; padding:22px 0;
+	margin-right:10px;
+}
+#footer .container .sections p{
+	color:#FFF;
+	line-height:22px;
+}
+
+#footer-bottom {
+	background:url(../images/footer-bottom-bg.png) repeat-x left top;
+	clear:both;
+	width:100%;
+	height:47px;
+}
+#footer a{
+color:#FFFFFF;
+}
+#footer a:hover{
+color:#9E805C;
+}
+#copyright {
+    color: #fff;
+    float: right;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 12px;
+    padding: 15px 0 0;
+    text-align: right;
+    width: 445px;
+}
+#copyright a {
+color:#000;
+}
+#copyright a:hover{
+color:#2D3536;
+}
+
+/*---------------------------------------------------- Contact Form Styles -------------------------------------------------*/
+.form_div {
+    border: 1px solid #CCCCCC;
+    float: left;
+    height: auto;
+    margin-top: 10px;
+    padding: 10px;
+    width: 638px;
+}
+.label {
+    float: left;
+    padding: 5px;
+    text-align: right;
+    width: 130px;
+}
+
+.inputField {
+    float: left;
+    padding: 7px 5px;
+    text-align: left;
+    width: 400px;
+}
+.redText {
+    color: #FF0000;
+}
+
+.blueHeader {
+    color: #005EC1;
+    font-family: 'MuseoSlab500Regular';
+    font-size: 20px;
+}
+.pageHeader {
+    color: #FF5D2B;
+    font-family: 'MuseoSlab500Regular';
+    font-size: 20px;
+}

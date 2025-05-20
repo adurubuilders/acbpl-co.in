@@ -1,0 +1,19 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+<OutputEncoding>UTF-8</OutputEncoding>
+<InputEncoding>UTF-8</InputEncoding>
+<AdultContent>false</AdultContent>
+<Language>en-us</Language>
+<ShortName>ACBPL Infra | top 10 residential construction companies in hyderabad</ShortName>
+<LongName>Google Search of ACBPL Infra Hyderabad</LongName>
+<Description>
+Use Google to search ACBPL Infra | reputed residential builders and developer in hyderabad
+</Description>
+<Tags>
+ACBPL Infra | Top Real Estate Comapny Developers and Builders in Hyderabad
+</Tags>
+<Url type="application/rss+xml" template="http://www.google.com/search?q=site:acbpl.co.in {searchTerms}"/>
+<Url type="text/html" template="http://www.acbpl.co.in/press/?s={searchTerms}"/>
+<Url type="application/opensearchdescription+xml" rel="self" template="http://www.acbpl.co.in/opensearch.xml"/>
+<SyndicationRight>open</SyndicationRight>
+<Contact>reach@acbpl.co.in</Contact>
+</OpenSearchDescription>
