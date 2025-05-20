@@ -1,0 +1,685 @@
+﻿/* Backend CSS */
+body > form, body .sfContentBlock, body #banner > div {
+  height: 100%; }
+
+body .rdTable {
+  height: 100% !important; }
+  body .rdTable .rdCenter {
+    height: 100% !important; }
+    body .rdTable .rdCenter .rdContent {
+      height: 100% !important; }
+      body .rdTable .rdCenter .rdContent > div {
+        height: 100% !important; }
+      body .rdTable .rdCenter .rdContent > .panel {
+        height: auto !important; }
+
+.sfPageContainer header {
+  position: static; }
+
+.sfPageContainer .zeControlDock:active, .sfPageContainer .zeControlDock:hover {
+  background-color: transparent !important; }
+
+.sfPageContainer .fadeIn, .sfPageContainer .growIn .go, .sfPageContainer .growIn, .sfPageContainer .fadeInUp, .sfPageContainer .fadeInDown, .sfPageContainer .fadeInLeft, .sfPageContainer .fadeInRight, .sfPageContainer .fadeInUpShort, .sfPageContainer .fadeInRightShort, .sfPageContainer .fadeInLeftShort, .sfPageContainer .fadeInDownShort {
+  opacity: 1 !important; }
+
+.alert {
+  margin-bottom: 10px;
+  padding: 0px;
+  border: none; }
+  .alert ul li {
+    padding: 15px;
+    border: 1px solid transparent; }
+  .alert p {
+    padding: 15px;
+    border: 1px solid transparent; }
+  .alert button {
+    padding: 15px; }
+
+.field-notes {
+  float: none;
+  text-align: left;
+  color: #333333;
+  max-width: 100%;
+  margin-bottom: 10px;
+  display: block;
+  font-weight: normal; }
+
+.form-notes {
+  margin-top: 15px; }
+
+select[readonly] + .select2-container {
+  pointer-events: none;
+  touch-action: none; }
+  select[readonly] + .select2-container .select2-selection {
+    background: #eee;
+    box-shadow: none; }
+  select[readonly] + .select2-container .select2-selection__arrow,
+  select[readonly] + .select2-container .select2-selection__clear {
+    display: none; }
+
+.js-touchspin[name='Quantity'] {
+  width: 45px !important; }
+
+.js-touchspin[readonly] ~ .input-group-btn-vertical {
+  display: none; }
+
+.owl-carousel {
+  display: block; }
+
+.modal-content h4 {
+  margin-left: 16px;
+  margin-right: 16px; }
+
+.btn.btn--big {
+  width: auto !important;
+  background-color: #8dc63f; }
+  .btn.btn--big:hover {
+    background-color: #99cc53; }
+    .btn.btn--big:hover:before, .btn.btn--big:hover:after {
+      border-color: transparent #8dc63f; }
+  .btn.btn--big:before, .btn.btn--big:after {
+    border-color: transparent #8dc63f; }
+
+.btn.btn-inactive {
+  background-color: #ccc; }
+  .btn.btn-inactive:hover {
+    background-color: #ccc; }
+    .btn.btn-inactive:hover:before, .btn.btn-inactive:hover:after {
+      border-color: transparent #ccc; }
+  .btn.btn-inactive:before, .btn.btn-inactive:after {
+    border-color: transparent #ccc; }
+
+.form-collapse {
+  padding: 15px 15px 0px 15px; }
+
+@media (max-width: 767px) {
+  .content .sub-content-menu ul li {
+    margin-left: 0px;
+    margin-right: 0px; } }
+
+.form-group {
+  padding-bottom: 1px; }
+
+.color-register {
+  background-color: #0076a3;
+  margin-top: 25px; }
+  .color-register:hover {
+    background-color: #0088bd; }
+  @media (max-width: 767px) {
+    .color-register {
+      margin-top: -10px; } }
+
+.partner li a {
+  text-transform: uppercase; }
+
+#speaker .sp__item {
+  min-height: 450px; }
+  @media (max-width: 767px) {
+    #speaker .sp__item {
+      min-height: 400px; } }
+  #speaker .sp__item .sp__block {
+    width: 250px;
+    height: 250px; }
+    @media (max-width: 1199px) {
+      #speaker .sp__item .sp__block {
+        width: 100%;
+        height: 235px; } }
+    @media (max-width: 991px) {
+      #speaker .sp__item .sp__block {
+        height: 165px; } }
+    @media (max-width: 767px) {
+      #speaker .sp__item .sp__block {
+        width: 250px;
+        height: 250px; } }
+    @media (max-width: 480px) {
+      #speaker .sp__item .sp__block {
+        width: 215px;
+        height: 215px; } }
+    #speaker .sp__item .sp__block img {
+      width: auto;
+      height: auto;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      display: block;
+      margin: auto;
+      border-radius: 0px;
+      max-width: 250px;
+      max-height: 250px;
+      left: 0;
+      right: 0; }
+      @media (min-width: 768px) and (max-width: 991px) {
+        #speaker .sp__item .sp__block img {
+          max-height: 165px;
+          max-width: 165px; } }
+      @media (max-width: 480px) {
+        #speaker .sp__item .sp__block img {
+          max-width: 215px;
+          max-height: 215px; } }
+
+#qrCode + .form-group {
+  margin-top: -25px; }
+  #qrCode + .form-group label {
+    font-size: 12px; }
+
+#sponsor .sponsor-lists, #sponsor .exhibitors-lists, #sponsor .partners-lists {
+  margin: 0px 0px 60px 0px; }
+
+.nav.main-menu li a {
+  font-size: 15px;
+  padding: 8px 8px; }
+  @media (max-width: 1024px) {
+    .nav.main-menu li a {
+      font-size: 20px;
+      padding: 10px 15px; } }
+
+#sponsor .sponsor-lists .spo__tab-content ul li a:hover img {
+  -webkit-transform: none;
+  opacity: 0.5; }
+
+#sponsor .partners-lists .spo__tab-content ul li a:hover img {
+  -webkit-transform: none;
+  opacity: 0.5; }
+
+#sponsor .exhibitors-lists .spo__tab-content ul li a:hover img {
+  -webkit-transform: none;
+  transform: none;
+  opacity: 0.5; }
+
+#sponsor .spo__tab-content ul li a img {
+  width: 100%;
+  height: auto;
+  transform: none;
+  -webkit-transform: none;
+  transition: none;
+  -webkit-transition: none;
+  transition-duration: none;
+  -webkit-transition-duration: none;
+  -webkit-transition-timing-function: none; }
+
+#sponsor .partners-lists .spo__tab-content ul li a img {
+  width: 100%;
+  height: auto;
+  transform: none;
+  -webkit-transform: none;
+  transition: none;
+  -webkit-transition: none;
+  transition-duration: none;
+  -webkit-transition-duration: none;
+  -webkit-transition-timing-function: none; }
+
+#sponsor .sponsor-lists .spo__tab-content ul li a img {
+  width: 100%;
+  height: auto;
+  transform: none;
+  -webkit-transform: none;
+  transition: none;
+  -webkit-transition: none;
+  transition-duration: none;
+  -webkit-transition-duration: none;
+  -webkit-transition-timing-function: none; }
+
+@media (min-width: 768px) {
+  #sponsor .spo__tab-content ul li {
+    width: 150px;
+    list-style: none;
+    float: left;
+    margin-left: 25px;
+    position: relative; }
+    #sponsor .spo__tab-content ul li a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: absolute; }
+      #sponsor .spo__tab-content ul li a img {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto; }
+  #sponsor .sponsor-lists .spo__tab-content ul li {
+    width: 150px; } }
+
+@media (min-width: 1024px) {
+  #sponsor .spo__tab-content ul li {
+    width: 190px;
+    display: block;
+    float: left;
+    margin-left: 40px;
+    position: relative; }
+    #sponsor .spo__tab-content ul li a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: absolute; }
+      #sponsor .spo__tab-content ul li a img {
+        width: 190px;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto; }
+  #sponsor .sponsor-lists .spo__tab-content ul li {
+    width: 190px; } }
+
+@media (min-width: 1205px) {
+  #sponsor .spo__tab-content ul li {
+    width: 220px;
+    min-height: 130px;
+    margin: 15px 15px 15px 40px;
+    display: block;
+    float: left; }
+    #sponsor .spo__tab-content ul li a img {
+      width: 220px; }
+  #sponsor .sponsor-lists .spo__tab-content ul li {
+    width: 220px;
+    min-height: 130px;
+    margin: 15px 15px 15px 40px; } }
+
+@media (max-width: 767px) {
+  #sponsor .sponsor-lists .spo__tab-content ul li, #sponsor .exhibitors-lists .spo__tab-content ul li, #sponsor .partners-lists .spo__tab-content ul li {
+    width: 50%;
+    text-align: center;
+    min-height: 130px;
+    overflow: hidden;
+    max-height: 100px;
+    margin-bottom: 20px;
+    display: block;
+    float: left; }
+    #sponsor .sponsor-lists .spo__tab-content ul li a img, #sponsor .exhibitors-lists .spo__tab-content ul li a img, #sponsor .partners-lists .spo__tab-content ul li a img {
+      width: 220px; } }
+
+@media (max-width: 478px) {
+  #sponsor .sponsor-lists .spo__tab-content ul li, #sponsor .exhibitors-lists .spo__tab-content ul li, #sponsor .partners-lists .spo__tab-content ul li {
+    width: 50%;
+    position: relative; }
+    #sponsor .sponsor-lists .spo__tab-content ul li a, #sponsor .exhibitors-lists .spo__tab-content ul li a, #sponsor .partners-lists .spo__tab-content ul li a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: absolute; }
+      #sponsor .sponsor-lists .spo__tab-content ul li a img, #sponsor .exhibitors-lists .spo__tab-content ul li a img, #sponsor .partners-lists .spo__tab-content ul li a img {
+        width: 150px;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto; } }
+
+@media (max-width: 378px) {
+  #sponsor .sponsor-lists .spo__tab-content ul li, #sponsor .exhibitors-lists .spo__tab-content ul li, #sponsor .partners-lists .spo__tab-content ul li {
+    width: 100%; }
+    #sponsor .sponsor-lists .spo__tab-content ul li a img, #sponsor .exhibitors-lists .spo__tab-content ul li a img, #sponsor .partners-lists .spo__tab-content ul li a img {
+      width: 220px; } }
+
+#sponsor .partner {
+  margin-top: -50px; }
+
+#sponsor .sfContentBlock {
+  margin-bottom: 35px; }
+
+@media (min-width: 768px) {
+  .sch__tabs-menu .btn--gradient {
+    min-width: 405px;
+    max-width: 405px; } }
+
+.sch__item .sch__time {
+  padding-top: 0px; }
+
+.sch__item .sch__concurrent {
+  min-height: 75px; }
+  .sch__item .sch__concurrent .sch__wrapper p {
+    font-size: 14px; }
+  .sch__item .sch__concurrent .sch__wrapper ol, .sch__item .sch__concurrent .sch__wrapper ul {
+    margin-top: 20px;
+    padding-left: 20px; }
+
+.sch__item .sch__wrapper h4 {
+  margin-bottom: 10px; }
+
+.sch__item .sch__wrapper:after {
+  top: 24px;
+  left: -2px; }
+
+.sch__item.break-last, .sch__item:last-of-type {
+  margin-bottom: 50px; }
+
+.normal-p {
+  font-size: 16px !important; }
+
+@media (max-width: 990px) {
+  .speakers_lists h3 {
+    margin-top: 10px;
+    text-align: center; }
+  .speakers_lists h4 {
+    margin-bottom: 20px;
+    margin-top: -10px;
+    text-align: center; }
+  .speakers_lists .sp__block {
+    display: block; } }
+
+@media (min-width: 768px) {
+  .speakers_lists .sp__detail_desc {
+    padding-left: 0px; } }
+
+@media (min-width: 992px) {
+  .speakers_lists .sp__detail_desc {
+    padding-left: 40px; } }
+
+@media (min-width: 1205px) {
+  .speakers_lists .sp__detail_desc {
+    padding-left: 20px; } }
+
+.container .sfContentBlock, .container ol > li {
+  margin-bottom: 5px; }
+
+@media (max-width: 768px) {
+  .content .exhibitor-agreement h1 {
+    font-size: 2.25em; }
+  .content .exhibitor-agreement h3 {
+    font-size: 1.3125em; }
+  .content .exhibitor-agreement h4 {
+    font-size: 1.0em; }
+  .content .exhibitor-agreement p {
+    font-size: 14px; }
+  .content .exhibitor-agreement ol {
+    font-size: 14px; } }
+
+@media (max-width: 478px) {
+  .content .exhibitor-agreement h1 {
+    font-size: 2.0em; }
+  .content .exhibitor-agreement h5 {
+    font-size: 1.05em; } }
+
+@media (max-width: 768px) {
+  .content .delegate-term-of-use h1 {
+    font-size: 1.8em; }
+  .content .delegate-term-of-use p {
+    font-size: 14px; }
+  .content .delegate-term-of-use ol {
+    font-size: 14px; } }
+
+@media (max-width: 478px) {
+  .content .delegate-term-of-use h1 {
+    font-size: 1.5em; } }
+
+.hotels-item .img-center {
+  display: block;
+  margin: 0 auto; }
+
+.hotels-item .fa-star {
+  margin-top: 15px;
+  font-size: 25px;
+  color: gold; }
+
+.hotels-item ol li {
+  margin-left: -25px; }
+
+.hotels-item .hotels-logo {
+  margin-bottom: 15px; }
+
+.hotels-item .hotels-details {
+  margin-top: 25px; }
+  .hotels-item .hotels-details table td:first-child {
+    vertical-align: bottom;
+    padding: 0 5px 0 0;
+    border: 0;
+    width: 60%; }
+    @media (max-width: 320px) {
+      .hotels-item .hotels-details table td:first-child {
+        width: 50%; } }
+  .hotels-item .hotels-details table tr td {
+    vertical-align: bottom;
+    padding: 0 5px 0 0;
+    border: 0;
+    width: 50%; }
+    @media (max-width: 480px) {
+      .hotels-item .hotels-details table tr td {
+        vertical-align: top; } }
+
+.hotels-item .hotel-of-starts {
+  text-align: center; }
+
+.hotels-item .img-hotels {
+  width: 320px; }
+
+.hotels-item .room-Entitlements {
+  margin-top: -8px; }
+  @media (max-width: 480px) {
+    .hotels-item .room-Entitlements {
+      margin-top: -5px; } }
+
+.hotels-item .hotels_details-desc {
+  min-width: 40%;
+  max-width: 100%; }
+  @media (max-width: 1025px) {
+    .hotels-item .hotels_details-desc {
+      min-width: 50%; } }
+  @media (max-width: 767px) {
+    .hotels-item .hotels_details-desc {
+      min-width: 70%; } }
+
+@media (max-width: 767px) {
+  .hotels-item h3 {
+    padding-left: 0;
+    margin-top: 25px; } }
+
+@media (max-width: 480px) {
+  .hotels-item h3 {
+    padding-left: 0;
+    margin-top: 25px;
+    padding-right: 28px; } }
+
+@media (max-width: 767px) {
+  .hotels-item p {
+    margin-left: 10px; } }
+
+@media (max-width: 480px) {
+  .hotels-item p {
+    margin-top: -5px;
+    font-size: 14px;
+    margin-left: 8px; } }
+
+@media (max-width: 415px) {
+  .hotels-item p {
+    margin-left: 0px; } }
+
+@media (max-width: 767px) {
+  .hotels-item ul li {
+    margin-left: 10px; } }
+
+@media (max-width: 480px) {
+  .hotels-item ul li {
+    margin-bottom: 7px;
+    font-size: 14px;
+    margin-left: 10px; } }
+
+@media (max-width: 480px) {
+  .hotels-item .icon-details-holder {
+    padding-top: 0px; }
+  .hotels-item .hotels_details-item {
+    margin-top: -12px; }
+  .hotels-item .url-outerlink {
+    margin-top: 10px; } }
+
+.hotels-item .hotels_details-desc {
+  text-align: left;
+  margin-top: 0;
+  vertical-align: top;
+  float: left;
+  margin-bottom: 0;
+  margin-left: 4px; }
+  @media (max-width: 480px) {
+    .hotels-item .hotels_details-desc {
+      min-width: 70%;
+      text-align: left;
+      margin-top: 0;
+      vertical-align: top;
+      float: left;
+      margin-bottom: 0;
+      font-size: 14px;
+      margin-left: 10px; } }
+  @media (max-width: 415px) {
+    .hotels-item .hotels_details-desc {
+      margin-left: 8px; } }
+  @media (max-width: 320px) {
+    .hotels-item .hotels_details-desc {
+      margin-left: 0; } }
+
+@media (max-width: 415px) {
+  .hotels-details ul {
+    margin-left: -8px; } }
+
+.dashboard .widget-links h3 {
+  font-size: 16px;
+  margin-left: 40px; }
+
+.js-stick-here img {
+  display: block;
+  width: 600px;
+  margin: 0 auto; }
+  @media (max-width: 480px) {
+    .js-stick-here img {
+      width: 300px; } }
+  @media (max-width: 325px) {
+    .js-stick-here img {
+      width: 250px; } }
+
+.search-result .sr__title a {
+  color: #333333; }
+  .search-result .sr__title a:hover {
+    color: #f35073; }
+
+.search-result .sr__exhibitors {
+  font-size: 16px; }
+
+.technologies-search .btn {
+  color: #FFFFFF !important; }
+
+.btn.btn--pink {
+  font-size: 14px;
+  padding: 4px 15px; }
+
+.tech-overview .to-desc p {
+  margin-top: 3px;
+  margin-bottom: 12px; }
+
+.tech-overview .to-desc ul {
+  margin-top: 3px;
+  margin-bottom: 12px; }
+  .tech-overview .to-desc ul li {
+    margin: 0px; }
+
+.potential-style {
+  background-color: #f0f0f0;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+@media (min-width: 768px) {
+  #sponsor .spo__tab-content ul li {
+    width: 150px;
+    list-style: none;
+    float: left;
+    margin-left: 25px;
+    position: relative; }
+  #sponsor .spo__tab-content ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute; }
+  #sponsor .spo__tab-content ul li a img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto; }
+  #sponsor .sponsor-lists .spo__tab-content ul li {
+    width: 150px;
+    margin: 15px; } }
+
+@media (min-width: 1024px) {
+  #sponsor .spo__tab-content ul li {
+    width: 190px;
+    display: block;
+    float: left;
+    margin-left: 40px;
+    position: relative; }
+  #sponsor .spo__tab-content ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute; }
+  #sponsor .spo__tab-content ul li a img {
+    width: 190px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto; }
+  #sponsor .sponsor-lists .spo__tab-content ul li {
+    width: 190px;
+    margin: 15px; } }
+
+@media (min-width: 1205px) {
+  #sponsor .spo__tab-content ul li {
+    width: 220px;
+    min-height: 130px;
+    margin: 15px 15px 15px 40px;
+    display: block;
+    float: left; }
+  #sponsor .spo__tab-content ul li a img {
+    width: 220px; }
+  #sponsor .sponsor-lists .spo__tab-content ul li {
+    width: 220px;
+    min-height: 130px;
+    margin: 15px 15px 15px 15px; } }
+
+@media (max-width: 767px) {
+  #sponsor .spo__tab-content ul li, #sponsor .exhibitors-lists .spo__tab-content ul li, #sponsor .partners-lists .spo__tab-content ul li {
+    width: 50%;
+    text-align: center;
+    min-height: 130px;
+    overflow: hidden;
+    max-height: 100px;
+    margin-bottom: 20px;
+    display: block;
+    float: left; }
+  #sponsor .sponsor-lists .spo__tab-content ul li {
+    width: 50%;
+    text-align: center;
+    min-height: 130px;
+    overflow: hidden;
+    max-height: 100px;
+    margin-bottom: 20px;
+    display: block;
+    float: none;
+    margin: auto; }
+  #sponsor .sponsor-lists .spo__tab-content ul li a img, #sponsor .exhibitors-lists .spo__tab-content ul li a img, #sponsor .partners-lists .spo__tab-content ul li a img {
+    width: 220px; } }
+
+@media (max-width: 378px) {
+  #sponsor .sponsor-lists .spo__tab-content ul li, #sponsor .exhibitors-lists .spo__tab-content ul li, #sponsor .partners-lists .spo__tab-content ul li {
+    width: 100%; }
+  #sponsor .sponsor-lists .spo__tab-content ul li a img, #sponsor .exhibitors-lists .spo__tab-content ul li a img, #sponsor .partners-lists .spo__tab-content ul li a img {
+    width: 220px; } }
+
+.sponsor-lists:after {
+  display: table-cell;
+  content: "";
+  clear: both; }
+
+#sponsor .sponsor-lists {
+  overflow: visible; }
+
