@@ -1,0 +1,25 @@
+{
+  "routes": [
+    {
+      "route": "/thanks.html",
+      "serve": "/thanks.html"
+    },
+    {
+      "route": "/error.html",
+      "serve": "/error.html"
+    },
+    {
+      "route": "/api/*",
+      "methods": ["GET", "POST"]
+    }
+  ],
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["/images/*.{png,jpg,gif}", "/css/*", "/js/*"]
+  },
+  "responseOverrides": {
+    "404": {
+      "rewrite": "/404.html"
+    }
+  }
+}

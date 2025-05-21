@@ -1,0 +1,14 @@
+{
+  "name": "contact-form-function",
+  "version": "1.0.0",
+  "description": "Azure Function for processing contact form submissions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^6.9.10"
+  }
+}
