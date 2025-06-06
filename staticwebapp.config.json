@@ -21,5 +21,11 @@
     "404": {
       "rewrite": "/404.html"
     }
+  },
+  "platform": {
+    "apiRuntime": "node:16"
+  },
+  "buildProperties": {
+    "outputLocation": "."
   }
 }
